@@ -31,7 +31,7 @@ git push -u origin main
 
 npm run heroku-postbuild
 
-git push heroku main
+git push heroku main  
 
 https://ideal-streaming.herokuapp.com/
 
