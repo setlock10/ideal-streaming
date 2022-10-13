@@ -37,3 +37,9 @@ https://ideal-streaming.herokuapp.com/
 
 
 sudo service postgresql start
+
+git remote add origin git@github.com:setlock10/ideal-streaming.git
+
+git push -u origin main
+
+git remote -v
