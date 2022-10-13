@@ -43,3 +43,9 @@ git remote add origin git@github.com:setlock10/ideal-streaming.git
 git push -u origin main
 
 git remote -v
+
+
+movies.map{|v| v[:cast]}
+
+
+movies.map{|v| v[:cast].map{|k|Actor.find_or_create_by(name: k) }}

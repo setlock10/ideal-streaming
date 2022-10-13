@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :actors, only: [:index]
   resources :users
   resources :sessions
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

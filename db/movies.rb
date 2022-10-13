@@ -1,5 +1,6 @@
-$movies= [
-    {
+# $movies= [
+movies= [
+        {
         "imdbID": "tt9850370",
         "tmdbID": "610643",
         "imdbRating": 65,
