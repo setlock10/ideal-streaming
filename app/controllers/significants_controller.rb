@@ -1,0 +1,2 @@
+class SignificantsController < ApplicationController
+end

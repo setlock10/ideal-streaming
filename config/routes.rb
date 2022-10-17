@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :guests
+  resources :categories
+  resources :casts
+  resources :genres, only: [:index, :show]
+  resources :significants
+  resources :movies, only: [:index]
   resources :actors, only: [:index]
   resources :users
   resources :sessions
