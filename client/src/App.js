@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Movies from "./Movies";
+import Profile from "./Profile";
+import NavBar from "./NavBar";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,12 +17,15 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <NavBar/>
         <Switch>
-          <Route path="/testing">
-            <h1>Test Route</h1>
+          <Route path="/Profile">
+            {/* <h1>Test Route</h1> */}
+            <Profile/>
           </Route>
           <Route path="/">
-            <h1>Page Count: {count}</h1>
+            {/* <h1>Page Count: {count}</h1> */}
+            <Movies/>
           </Route>
         </Switch>
       </div>
