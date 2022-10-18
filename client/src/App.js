@@ -5,10 +5,14 @@ import Profile from "./Profile";
 import NavBar from "./NavBar";
 import './App.css';
 import MovieHome from "./MovieHome";
+import Header from "./Header";
+import MoviePage from "./MoviePage";
 
 
 function App() {
   const [count, setCount] = useState(0);
+  const [selectedMovie,setSelectedMovie] = useState([])
+
 
   useEffect(() => {
     fetch("/hello")
@@ -18,16 +22,20 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Header/>
       <div className="App">
         <NavBar/>
         <Switch>
+          <Route path="/MoviePage">
+            <MoviePage selectedMovie={selectedMovie}/>
+          </Route>
           <Route path="/Profile">
             {/* <h1>Test Route</h1> */}
             <Profile/>
           </Route>
           <Route path="/">
             {/* <h1>Page Count: {count}</h1> */}
-            <MovieHome/>
+            <MovieHome setSelectedMovie={setSelectedMovie}/>
           </Route>
         </Switch>
       </div>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 
-function MovieHome() {
+function MovieHome({setSelectedMovie}) {
 
         // Setting State and Fetching the Movies
         const [adventures,setAdventures] = useState([])
@@ -52,18 +52,23 @@ function MovieHome() {
           }, []);
     
     
-        let adventureCards = adventures.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
-        let animationCards = animations.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
-        let dramasCards = dramas.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
-        let actionCards = actions.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
-        let comedyCards = comedies.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
-        let thrillerCards = thrillers.map(movie=>{return <MovieCard movie={movie} key={movie.id}/>})
+             // sets state for selected movie
+        
+        let adventureCards = adventures.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
+        let animationCards = animations.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
+        let dramasCards = dramas.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
+        let actionCards = actions.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
+        let comedyCards = comedies.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
+        let thrillerCards = thrillers.map(movie=>{return <MovieCard setSelectedMovie={setSelectedMovie} movie={movie} key={movie.id}/>})
         
 
+
+        // Handles the drag scroll
+
         let pos = { top: 0, left: 0, x: 0, y: 0 };
-       // const ele = document.getElementById('adventure');
-       // const ele = document.getElementsByClassName('movieList')
-       var ele ={}
+        // const ele = document.getElementById('adventure');
+        // const ele = document.getElementsByClassName('movieList')
+        var ele ={}
 
     
         const mouseDownHandler = function (e) {
@@ -102,6 +107,12 @@ function MovieHome() {
             ele.style.cursor = 'grab';
             ele.style.removeProperty('user-select');
         };
+
+     
+
+
+
+        
     
         return(
             <div>
