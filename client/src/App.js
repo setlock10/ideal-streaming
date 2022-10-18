@@ -3,6 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Movies from "./Movies";
 import Profile from "./Profile";
 import NavBar from "./NavBar";
+import './App.css';
+import MovieHome from "./MovieHome";
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
           </Route>
           <Route path="/">
             {/* <h1>Page Count: {count}</h1> */}
-            <Movies/>
+            <MovieHome/>
           </Route>
         </Switch>
       </div>
