@@ -108,7 +108,9 @@ header{
 }
 
 
-
+.backdropImage{
+  width: 2200px;
+}
 
 .movieCardImage{
   height: 250px;
