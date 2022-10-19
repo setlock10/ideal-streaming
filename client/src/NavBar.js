@@ -4,10 +4,13 @@ function NavBar(){
     
 
     return(
-        <nav className="navLinks">
-            <NavLink  to="/"     >Movies</NavLink>
-            <NavLink  to="/Profile">Profile</NavLink>
-        </nav>
+        <div>
+            {/* <div className="logo">iDeal Streaming</div> */}
+            <nav className="navLinks">
+                <NavLink  to="/"     >Movies</NavLink>
+                <NavLink  to="/Profile">Profile</NavLink>
+            </nav>
+        </div>
         )
     
     

@@ -23,8 +23,9 @@ function App() {
   return (
     <BrowserRouter>
       <Header/>
+      <NavBar/>
       <div className="App">
-        <NavBar/>
+        
         <Switch>
           <Route path="/MoviePage">
             <MoviePage selectedMovie={selectedMovie}/>
