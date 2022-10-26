@@ -1,5 +1,5 @@
 class MovieSerializer < ActiveModel::Serializer
-  attributes :title, :imdbRating, :imdbVoteCount, :backdropURL, :year, :runtime, :overview, :tagline, :posterURL, :age, :originalLanguage, :actor_names, :guest_names, :genre_names
+  attributes :id, :title, :imdbRating, :imdbVoteCount, :backdropURL, :year, :runtime, :overview, :tagline, :posterURL, :age, :originalLanguage, :actor_names, :guest_names, :genre_names
 
   # has_many :actors #, serializer: MovieActorSerializer
   # has_many :guests

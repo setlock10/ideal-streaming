@@ -1,12 +1,18 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Movies from "./Movies";
 import Profile from "./Profile";
 import NavBar from "./NavBar";
 import './App.css';
 import MovieHome from "./MovieHome";
 import Header from "./Header";
 import MoviePage from "./MoviePage";
+import Login from "./Login";
+import SignupPage from "./SignupPage";
+import Bookmarks from "./Bookmarks";
+
+document.title="iDeal Streaming"
+
+
 
 
 function App() {
@@ -20,22 +26,65 @@ function App() {
       .then((data) => setCount(data.count));
   }, []);
 
+
+
+  //Check Login Staus
+  
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
+  const [user, setUser] = useState(null);
+
+
+  useEffect(()=>{
+
+    fetch('/me')
+    .then(res=>res.json())
+    .then(data=> {
+      //console.log(data)
+      if(data !== null){
+        setUser(data)
+        setIsAuthenticated(true)
+      }
+      
+    })
+
+
+  },[])
+
+
+
+
+
+// debugger
+
+
+
+
+
+
   return (
     <BrowserRouter>
       <Header/>
-      <NavBar/>
+      <NavBar setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>
       <div className="App">
         
         <Switch>
+        <Route path="/Logon">
+            <Login user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>
+          </Route>
+          <Route path="/SignupPage">
+            <SignupPage user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>
+          </Route>
           <Route path="/MoviePage">
-            <MoviePage selectedMovie={selectedMovie}/>
+            <MoviePage user={user} selectedMovie={selectedMovie}/>
           </Route>
           <Route path="/Profile">
-            {/* <h1>Test Route</h1> */}
-            <Profile/>
+            <Profile />
+          </Route>
+          <Route path="/Bookmarks">
+            <Bookmarks setSelectedMovie={setSelectedMovie} />
           </Route>
           <Route path="/">
-            {/* <h1>Page Count: {count}</h1> */}
             <MovieHome setSelectedMovie={setSelectedMovie}/>
           </Route>
         </Switch>

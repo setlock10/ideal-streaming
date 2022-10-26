@@ -13,7 +13,7 @@ function Header(){
             {/* <div >
                 <span id="logo" class='text' data-text="iDeal Streaming">iDeal Streaming</span>
             </div> */}
-            <div class="neon">
+            <div className="neon">
                 iDeal Streaming
                 {/* <span class="text" data-text="iDeal Streaming">iDeal Streaming</span> */}
                 {/* <span class="gradient"></span>

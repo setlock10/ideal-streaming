@@ -1,15 +1,36 @@
 import { NavLink } from "react-router-dom"
-function NavBar(){
+import {useHistory} from 'react-router-dom'
+
+function NavBar({setUser, setIsAuthenticated, isAuthenticated}){
+    const history = useHistory()
+
+    function logout()
+    {
+      fetch('/logout',{
+          method:'DELETE'
+      })
+      .then(()=>{
+          setIsAuthenticated(false)
+          setUser(null)
+          history.push("/Logon")
+       })
+
+    }
 
     
 
     return(
-        <div>
-            {/* <div className="logo">iDeal Streaming</div> */}
+        <div name="navBars">
             <nav className="navLinks">
-                <NavLink  to="/"     >Movies</NavLink>
-                <NavLink  to="/Profile">Profile</NavLink>
+                <NavLink  to="/">Movies</NavLink>
+                <NavLink  to="/">Series</NavLink>
             </nav>
+            <nav className="navLinksRight">
+                {isAuthenticated?(<NavLink  to="/Bookmarks">My Stuff</NavLink>):( <NavLink  to="/Logon">Sign In</NavLink>)}
+                {isAuthenticated?(<button className="button-nav" style={isAuthenticated?{visibility:'visible'}:{visibility:'hidden'}} onClick={()=>logout()}>Sign Out</button>):( <NavLink  to="/SignupPage">Sign Up</NavLink>)}
+           
+            </nav>
+            
         </div>
         )
     
