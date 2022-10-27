@@ -60,7 +60,7 @@ function MoviePage({user, selectedMovie}){
                         (<img id="addIcon" alt="added to list" name="added" src="./added_icon.png"/>):
                         (<img id="addIcon" alt="add to list" name="add" src="./add_icon.png"/>)}
                 </div>
-                <h1>{selectedMovie.title}</h1>m ,nnn,
+                <h1>{selectedMovie.title}</h1>
                 <h4> {selectedMovie.year+"       "+selectedMovie.runtime+" min"}</h4>
                 <p>{selectedMovie.overview}</p>
                 <h2>Cast</h2>

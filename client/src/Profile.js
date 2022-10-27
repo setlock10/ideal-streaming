@@ -60,7 +60,13 @@ function handleClick(profile){
         <h1 className="profileLetter">{profile.name[0]}</h1>
         <h1 className="profileLabel">{profile.name}</h1>
       </div>
-      
+      <div id="profile-buttons">
+          <button id="side-by-side" className="button">Add Adult</button>
+          <button id="side-by-side" className="button">Add Kid</button>
+         
+        </div>
+        <h3 className="manage-profile">Manage Profiles</h3>
+
       </div> 
 )})
     let profileCards = profiles.slice(1).map((profile)=>{return (<div>       
@@ -78,15 +84,14 @@ function handleClick(profile){
 
     return(
 
-      <div>
+      <div id="profile-container">
 
         <div className="profileList">
             {firstProfile}
             
             {profileCards}
         </div>
-
-      </div>
+       </div>
 
     )
 

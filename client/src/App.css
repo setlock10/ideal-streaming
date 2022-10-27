@@ -8,6 +8,7 @@ body{
   background-size: cover;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* overflow: hidden; */
+  cursor: default;
 
 }
 
@@ -37,7 +38,19 @@ body{
   text-align: center;
 }
 
+.manage-profile{
+  position: relative;
+  top:0%;
+  opacity:50%;
+}
 
+.manage-profile:hover{
+  opacity:100%;
+}
+
+#profile-container{
+  text-align: center;
+}
 
 
 .profileList{
@@ -63,6 +76,7 @@ body{
   left:0%;
   width: 50%;
   /* z-index: 0; */
+
 
 }
 
@@ -119,7 +133,23 @@ header{
   top:0;
   height:100px;
   background: rgb(0, 0, 29);
+  cursor: default;
 }
+
+#profile-buttons{
+  /* position: absolute;
+  left:40%;
+  top:85%; */
+  display:flex;
+  margin-top: 40%;
+
+ }
+
+ #side-by-side{
+  margin:1%;
+  
+
+ }
 
 .neon {
   position: relative;
@@ -185,6 +215,7 @@ header{
 
 
 .backdropImage{
+  cursor: default;
   width:100%;
 }
 
@@ -238,6 +269,7 @@ header{
   color: white;
   opacity: 75%;
   font-size: medium;
+ 
 }
 
 
@@ -278,6 +310,7 @@ header{
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 1%;
+  cursor: default;
   
 }
 
@@ -375,6 +408,7 @@ header{
 /* ********* Their Stuff  ********* */
 .App {
   /* overflow-y: scroll; */
+  
 }
 
 .App-logo {
