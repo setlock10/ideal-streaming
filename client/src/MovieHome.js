@@ -65,48 +65,63 @@ function MovieHome({setSelectedMovie}) {
 
         // Handles the drag scroll
 
-        let pos = { top: 0, left: 0, x: 0, y: 0 };
-        // const ele = document.getElementById('adventure');
-        // const ele = document.getElementsByClassName('movieList')
-        var ele ={}
+    //     const [downXY, setDownXY] = useState({x:0,y:0});
+
+
+    //     let pos = { top: 0, left: 0, x: 0, y: 0 };
+    //     // const ele = document.getElementById('adventure');
+    //     // const ele = document.getElementsByClassName('movieList')
+    //     var ele ={}
 
     
-        const mouseDownHandler = function (e) {
-            ele=e.target.parentElement.parentElement
-           // debugger
-            pos = {
-                // The current scroll
-                left: ele.scrollLeft,
-                top: ele.scrollTop,
-                // Get the current mouse position
-                x: e.clientX,
-                y: e.clientY,
-            };
+    //     const mouseDownHandler = function (e) {
+    //         ele=e.target.parentElement.parentElement
+            
+    //         setDownXY({x:e.target.x, y:e.target.y})
+    //        // console.log("down "+e.movementX+"   ",e.movementY)
 
-        document.addEventListener('mousemove', mouseMoveHandler);
-        document.addEventListener('mouseup', mouseUpHandler);
+    //        // debugger
+    //         pos = {
+    //             // The current scroll
+    //             left: ele.scrollLeft,
+    //             top: ele.scrollTop,
+    //             // Get the current mouse position
+    //             x: e.clientX,
+    //             y: e.clientY,
+    //         };
+            
 
-        };
+    //     //document.addEventListener('mousemove', mouseMoveHandler);
+    //    // document.addEventListener('mouseup', mouseUpHandler);
 
-        document.addEventListener('mousedown', mouseDownHandler);
+    //     };
+
+
+        
+
+    //     document.addEventListener('mousedown', mouseDownHandler);
  
-        const mouseMoveHandler = function (e) {
-            // How far the mouse has been moved
-            const dx = e.clientX - pos.x;
-            const dy = e.clientY - pos.y;
+    //     const mouseMoveHandler = function (e) {
+    //         // How far the mouse has been moved
+            
+    //         const dx = e.clientX - pos.x;
+    //         const dy = e.clientY - pos.y;
         
-            // Scroll the element
-            ele.scrollTop = pos.top - dy;
-            ele.scrollLeft = pos.left - dx;
-        };
+    //         // Scroll the element
+    //         ele.scrollTop = pos.top - dy;
+    //         ele.scrollLeft = pos.left - dx;
+    //     };
 
-        const mouseUpHandler = function () {
-            document.removeEventListener('mousemove', mouseMoveHandler);
-            document.removeEventListener('mouseup', mouseUpHandler);
+    //     const mouseUpHandler = function (e) {
+    //         console.log("up "+e.target.x+"   ",e.target.y)
+    //         document.removeEventListener('mousemove', mouseMoveHandler);
+    //         document.removeEventListener('mouseup', mouseUpHandler);
         
-            ele.style.cursor = 'grab';
-            ele.style.removeProperty('user-select');
-        };
+    //        // ele.style.cursor = 'grab';
+    //       //  ele.style.removeProperty('user-select');
+    //     };
+
+    //     document.addEventListener('mouseup', mouseUpHandler);
 
      
 
@@ -118,7 +133,9 @@ function MovieHome({setSelectedMovie}) {
             <div>
                 <label>Adventure</label>
                 <div id="adventure" className="movieList">
+                  
                     {adventureCards}
+                
                 </div>
                 <label>Animation</label>
                 <div id="animation" className="movieList">
