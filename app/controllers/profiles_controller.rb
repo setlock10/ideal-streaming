@@ -7,9 +7,9 @@ class ProfilesController < ApplicationController
 
     def set_profile
 
-        profile=Profile.find_by(id: params[:id])
+        profile = Profile.find_by(id: params[:id])
 
-        session[:profile_id]=params[:id]
+        session[:profile_id] = params[:id]
         
         render json: profile, status: :ok
 

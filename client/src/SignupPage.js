@@ -51,6 +51,7 @@ function SignupPage({ user, setUser, setIsAuthenticated, isAuthenticated}){
   
      return(
         <div className="login" >
+          <h1 className='form-title'>Sign Up</h1>
             <div className="loginBackground" ></div>
             <form className="loginForm"  onSubmit={onSignup}>
                 <div>

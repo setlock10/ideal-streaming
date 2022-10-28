@@ -1,0 +1,338 @@
+movies= [
+    {
+      "imdbID": "tt0462499",
+      "tmdbID": "7555",
+      "imdbRating": 70,
+      "imdbVoteCount": 232421,
+      "tmdbRating": 66,
+      "backdropPath": "/r60nF76y6Lw3A82Og9bdyRzuo1E.jpg",
+      "backdropURLs": {
+        "300": "https://image.tmdb.org/t/p/w300/r60nF76y6Lw3A82Og9bdyRzuo1E.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/r60nF76y6Lw3A82Og9bdyRzuo1E.jpg",
+        "1280": "https://image.tmdb.org/t/p/w1280/r60nF76y6Lw3A82Og9bdyRzuo1E.jpg",
+        "original": "https://image.tmdb.org/t/p/original/r60nF76y6Lw3A82Og9bdyRzuo1E.jpg"
+      },
+      "originalTitle": "Rambo",
+      "genres": [
+        28,
+        12,
+        53
+      ],
+      "countries": [
+        "DE",
+        "US"
+      ],
+      "year": 2008,
+      "runtime": 92,
+      "cast": [
+        "Sylvester Stallone",
+        "Julie Benz",
+        "Matthew Marsden",
+        "Graham McTavish",
+        "Reynaldo Gallegos",
+        "Tim Kang",
+        "Jake La Botz"
+      ],
+      "significants": [
+        "Sylvester Stallone"
+      ],
+      "title": "Rambo",
+      "overview": "When governments fail to act on behalf of captive missionaries, ex-Green Beret John James Rambo sets aside his peaceful existence along the Salween River in a war-torn region of Thailand to take action. Although he's still haunted by violent memories of his time as a U.S. soldier during the Vietnam War, Rambo can hardly turn his back on the aid workers who so desperately need his help.",
+      "tagline": "Heroes never die… They just reload.",
+      "video": "tI-kGoxpySM",
+      "posterPath": "/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+      "posterURLs": {
+        "92": "https://image.tmdb.org/t/p/w92/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "154": "https://image.tmdb.org/t/p/w154/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/r8LPeldxskHrGJTPfhICguCip2H.jpg",
+        "original": "https://image.tmdb.org/t/p/original/r8LPeldxskHrGJTPfhICguCip2H.jpg"
+      },
+      "age": -1,
+      "streamingInfo": {
+        "netflix": {
+          "us": {
+            "link": "https://www.netflix.com/title/70084769/",
+            "added": 1652703181,
+            "leaving": 0
+          }
+        }
+      },
+      "originalLanguage": "en"
+    },
+ 
+  {
+      "imdbID": "tt10755644",
+      "tmdbID": "622230",
+      "imdbRating": 56,
+      "imdbVoteCount": 326,
+      "tmdbRating": 74,
+      "backdropPath": "/EXJrCRBYAPffNuMQbX7irsbrRn.jpg",
+      "backdropURLs": {
+        "300": "https://image.tmdb.org/t/p/w300/EXJrCRBYAPffNuMQbX7irsbrRn.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/EXJrCRBYAPffNuMQbX7irsbrRn.jpg",
+        "1280": "https://image.tmdb.org/t/p/w1280/EXJrCRBYAPffNuMQbX7irsbrRn.jpg",
+        "original": "https://image.tmdb.org/t/p/original/EXJrCRBYAPffNuMQbX7irsbrRn.jpg"
+      },
+      "originalTitle": "LEGO Marvel Spider-Man: Vexed by Venom",
+      "genres": [
+        16,
+        6,
+        28
+      ],
+      "countries": [
+        "US"
+      ],
+      "year": 2019,
+      "runtime": 21,
+      "cast": [
+        "Robbie Daymond",
+        "Ben Pronsky",
+        "Josh Keaton",
+        "Tara Strong",
+        "Jennifer Hale",
+        "Laura Bailey"
+      ],
+      "significants": [
+        "Andrew Duncan",
+        "Ken Cunningham"
+      ],
+      "title": "LEGO Marvel Spider-Man: Vexed by Venom",
+      "overview": "Thanks to Green Goblin and Venom, tech theft is now at an all-time high. Can our Friendly Neighborhood Spider-Man put an end to their mysterious villainous scheme before all of New York City is destroyed?",
+      "tagline": "",
+      "video": "",
+      "posterPath": "/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+      "posterURLs": {
+        "92": "https://image.tmdb.org/t/p/w92/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "154": "https://image.tmdb.org/t/p/w154/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gTo2r8nNU3ZYAS6DqdeSp1VEqkq.jpg"
+      },
+      "age": -1,
+      "streamingInfo": {
+        "netflix": {
+          "us": {
+            "link": "https://www.netflix.com/title/81280754/",
+            "added": 1645595301,
+            "leaving": 0
+          }
+        }
+      },
+      "originalLanguage": "en"
+    },
+    {
+      "imdbID": "tt0316654",
+      "tmdbID": "558",
+      "imdbRating": 74,
+      "imdbVoteCount": 649908,
+      "tmdbRating": 72,
+      "backdropPath": "/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+      "backdropURLs": {
+        "300": "https://image.tmdb.org/t/p/w300/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+        "1280": "https://image.tmdb.org/t/p/w1280/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6al048Lat3eLVQOuKtc9h6Tu94d.jpg"
+      },
+      "originalTitle": "Spider-Man 2",
+      "genres": [
+        28,
+        12,
+        878
+      ],
+      "countries": [
+        "US"
+      ],
+      "year": 2004,
+      "runtime": 127,
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "James Franco",
+        "Alfred Molina",
+        "Rosemary Harris",
+        "J.K. Simmons",
+        "Donna Murphy"
+      ],
+      "significants": [
+        "Sam Raimi"
+      ],
+      "title": "Spider-Man 2",
+      "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well…",
+      "tagline": "There's a hero in all of us.",
+      "video": "3jBFwltrxJw",
+      "posterPath": "/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+      "posterURLs": {
+        "92": "https://image.tmdb.org/t/p/w92/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "154": "https://image.tmdb.org/t/p/w154/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+        "original": "https://image.tmdb.org/t/p/original/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg"
+      },
+      "age": 9,
+      "streamingInfo": {
+        "hulu": {
+          "us": {
+            "link": "https://www.hulu.com/movie/939fab6f-224f-43cb-8c38-aa454aa89e2b",
+            "added": 1659634719,
+            "leaving": 1680332340
+          }
+        },
+        "netflix": {
+          "us": {
+            "link": "https://www.netflix.com/title/60036230/",
+            "added": 1661821706,
+            "leaving": 0
+          }
+        }
+      },
+      "originalLanguage": "en"
+    },
+    {
+      "imdbID": "tt0413300",
+      "tmdbID": "559",
+      "imdbRating": 63,
+      "imdbVoteCount": 588318,
+      "tmdbRating": 63,
+      "backdropPath": "/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
+      "backdropURLs": {
+        "300": "https://image.tmdb.org/t/p/w300/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
+        "1280": "https://image.tmdb.org/t/p/w1280/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg"
+      },
+      "originalTitle": "Spider-Man 3",
+      "genres": [
+        28,
+        12,
+        878
+      ],
+      "countries": [
+        "US"
+      ],
+      "year": 2007,
+      "runtime": 139,
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "James Franco",
+        "Thomas Haden Church",
+        "Topher Grace",
+        "Bryce Dallas Howard",
+        "Rosemary Harris"
+      ],
+      "significants": [
+        "Sam Raimi"
+      ],
+      "title": "Spider-Man 3",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "tagline": "The battle within.",
+      "video": "e5wUilOeOmg",
+      "posterPath": "/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+      "posterURLs": {
+        "92": "https://image.tmdb.org/t/p/w92/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "154": "https://image.tmdb.org/t/p/w154/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/fUZyFTovKMauA1zq9xDe6dmidRv.jpg",
+        "original": "https://image.tmdb.org/t/p/original/fUZyFTovKMauA1zq9xDe6dmidRv.jpg"
+      },
+      "age": -1,
+      "streamingInfo": {
+        "hulu": {
+          "us": {
+            "link": "https://www.hulu.com/movie/e64ed3c8-1874-43cd-8ea7-9cf55237aa4b",
+            "added": 1659602682,
+            "leaving": 1680332340
+          }
+        },
+        "netflix": {
+          "us": {
+            "link": "https://www.netflix.com/title/70047101/",
+            "added": 1659850865,
+            "leaving": 0
+          }
+        }
+      },
+      "originalLanguage": "en"
+    },
+    {
+      "imdbID": "tt0948470",
+      "tmdbID": "1930",
+      "imdbRating": 69,
+      "imdbVoteCount": 653885,
+      "tmdbRating": 66,
+      "backdropPath": "/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+      "backdropURLs": {
+        "300": "https://image.tmdb.org/t/p/w300/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+        "1280": "https://image.tmdb.org/t/p/w1280/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg"
+      },
+      "originalTitle": "The Amazing Spider-Man",
+      "genres": [
+        28,
+        12,
+        878
+      ],
+      "countries": [
+        "US"
+      ],
+      "year": 2012,
+      "runtime": 136,
+      "cast": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Rhys Ifans",
+        "Denis Leary",
+        "Martin Sheen",
+        "Sally Field",
+        "Max Charles"
+      ],
+      "significants": [
+        "Marc Webb"
+      ],
+      "title": "The Amazing Spider-Man",
+      "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+      "tagline": "The untold story begins.",
+      "video": "WLxul0Vzuhk",
+      "posterPath": "/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+      "posterURLs": {
+        "92": "https://image.tmdb.org/t/p/w92/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "154": "https://image.tmdb.org/t/p/w154/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "original": "https://image.tmdb.org/t/p/original/fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg"
+      },
+      "age": 11,
+      "streamingInfo": {
+        "netflix": {
+          "us": {
+            "link": "https://www.netflix.com/title/70208599/",
+            "added": 1654479221,
+            "leaving": 0
+          }
+        }
+      },
+      "originalLanguage": "en"
+    }
+ ]
+
+movies.map{|k| Movie.create(imdbID: k[:imdbID], tmdbID: k[:tmbID], imdbRating: k[:imdbRating], imdbVoteCount: k[:imdbVoteCount], tmdbRating: k[:tmdbRating], backdropURL: k[:backdropURLs][:original], originalTitle: k[:originalTitle], year: k[:year], runtime: k[:runtime], title: k[:title], overview: k[:overview], tagline: k[:tagline], posterURL: k[:posterURLs][:original], age: k[:age], originalLanguage: k[:originalLanguage])}
+movies.map{|v| v[:cast].map{|k|Actor.find_or_create_by(name: k) }}
+movies.map{|v| v[:significants].map{|k|Guest.find_or_create_by(name: k) }}
+
+
+movies.map{|v| v[:cast].map{|k| Cast.create(actor_id: Actor.find_by(name: k).id, movie_id: Movie.find_by(imdbID: v[:imdbID]).id)}}
+movies.map{|v| v[:significants].map{|k| Significant.create(guest_id: Guest.find_by(name: k).id, movie_id: Movie.find_by(imdbID: v[:imdbID]).id)}}
+                                                                  
+movies.map{|v| v[:genres].map{|k| Category.create(genre_id: Genre.find_by(code: k).id, movie_id: Movie.find_by(imdbID: v[:imdbID]).id)}}

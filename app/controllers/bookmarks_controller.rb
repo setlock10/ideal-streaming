@@ -2,7 +2,7 @@ class BookmarksController < ApplicationController
     def create
 
         
-        params_all[:profile_id]=session[:profile_id]
+        params_all[:profile_id] = session[:profile_id]
         
         render json: Bookmark.create!(params_all), status: :created
     end
